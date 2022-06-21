@@ -1,0 +1,149 @@
+.card-container{
+    height: 350px;
+    width: 420px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    margin-top: 45px;
+    margin-left: 55px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-container:hover{
+    background-color: rgb(243, 241, 241);
+}
+
+.image-container img{
+    overflow: hidden;
+    height: 180px;
+    width: 450px;
+}
+
+.card-title{
+    margin-top: 20px;
+    padding-left: 15px;
+    font-weight: 800;
+    color: #2f353b;
+    font-size: 20px;
+}
+
+.card-content{
+    margin-top: 18px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    color: gray;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    color: gray;
+}
+
+.pop-up-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding-top: 150px;
+}
+
+.pop-up-body{
+    height: 350px;
+    width: 420px;
+    background-color: aliceblue;
+    color: #2f353b;
+    margin: auto;
+}
+
+.pop-up-header{
+    width: 410px;
+    text-align: right;
+}
+
+.pop-up-header button{
+    width: 20px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+.pop-up-content{
+    height: 350px;
+    width: 420px;
+    background-color: aliceblue;
+    color: #2f353b;
+    margin: auto;
+}
+
+.popup-img{
+    margin-top: 12px;
+    height: 200px;
+    width: 420px;
+}
+
+.popup-title{
+    margin-top: 8px;
+    padding-left: 15px;
+    font-weight: 800;
+    color: #2f353b;
+    font-size: 15px;
+}
+
+.popup-content{
+    margin-top: 8px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    color: gray;
+}
+
+.popup-avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 7px;
+    margin-left: 12px;
+}
+
+.popup-role{
+    position: absolute;
+    bottom: 122px;
+    left: 515px;
+    font-weight: 500;
+    font-size: 12px;
+    color: gray;
+}
+
+
+
+
+@media (max-width: 700px) {
+    .card-container{
+      height: 555px;
+    }
+    .image-container img{
+        overflow: hidden;
+        height: 250px;
+    }
+    .card-title{
+        font-size: 25px;
+    }
+    .card-content{
+        font-size: 20px;
+    }
+    .detail{
+        font-size: 20px;
+    }
+  }
